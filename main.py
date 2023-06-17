@@ -17,6 +17,6 @@ with smtplib.SMTP("smtp.gmail.com") as email_connection:
     email_connection.sendmail(
         from_addr=my_email, 
         to_addrs=to_email, 
-        msg="Subject: Test email 1\n\nThis is another way."
+        msg="Subject: Hello 1\n\nThis is test email."
     )
     # email_connection.close()
