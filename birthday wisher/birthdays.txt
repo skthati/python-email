@@ -1,5 +1,5 @@
 name,email,year,month,day
 sandeep,sandeep@thati.org,1985,07,23
 swetha,nsd1026@gmail.com,1985,01,26
-sloka,sloka.thati@gmail.com,2013,09,13
-shourya,shourya.thati@gmail.com,2023,06,18
+sloka,sloka.thati@gmail.com,2013,06,18
+shourya,shourya.thati@gmail.com,2023,01,18

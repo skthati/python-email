@@ -32,14 +32,15 @@ month_day = (month, day)
 
 my_email = "pythonmail@sloka.co.nz"
 my_password = "Today@123"
-to_email = "sandeep@thati.org"
+to_email = "sloka.thati@gmail.com"
 
 # Convert data to dictionary
 
 data_dict = {(data_row['month'], data_row['day']): data_row for (index, data_row) in data.iterrows()}
 
 if month_day in data_dict:
-    file_path = f"temp{random.randint(1, 3)}.txt"
+    # file_path = f"temp{random.randint(1, 3)}.txt"
+    file_path = "temp4.txt"
 
     with open("birthday wisher/templates/"+file_path) as file_content:
         file_data = file_content.read()
@@ -52,7 +53,7 @@ if month_day in data_dict:
         birthday_email.sendmail(
             from_addr = my_email,
             to_addrs = to_email, 
-            msg=f"Subject: Happy Birthday {data_dict[month_day]['name']}!!\n\n{file_data}"
+            msg=f"Subject: I love you {data_dict[month_day]['name']}!!\n\n{file_data}"
         )
 
 # for i in data_dict:
