@@ -20,7 +20,7 @@ import random
 import smtplib
 
 # -----Import data from txt file.
-data = pd.read_csv("birthday wisher/birthdays.txt")
+data = pd.read_csv("birthday-wisher/birthdays.txt")
 
 # Grab today's date and time.
 now = dt.datetime.now()
@@ -42,7 +42,7 @@ if month_day in data_dict:
     # file_path = f"temp{random.randint(1, 3)}.txt"
     file_path = "temp4.txt"
 
-    with open("birthday wisher/templates/"+file_path) as file_content:
+    with open("birthday-wisher/templates/"+file_path) as file_content:
         file_data = file_content.read()
         file_data = file_data.replace("[name]", data_dict[month_day]["name"])
         print(file_data)
