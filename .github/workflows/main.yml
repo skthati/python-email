@@ -47,5 +47,4 @@ jobs:
       run: |
         python main.py
         
-        python birthday\ wisher/main-birthday.py
-          
+        python birthday-wisher/main-birthday.py
