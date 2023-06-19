@@ -32,7 +32,7 @@ month_day = (month, day)
 
 my_email = "pythonmail@sloka.co.nz"
 my_password = "Today@123"
-to_email = "sandz1702@gmail.com"
+to_email = "sloka.thati@gmail.com"
 
 # Convert data to dictionary
 
