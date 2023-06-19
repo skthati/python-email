@@ -21,4 +21,4 @@ jobs:
         
     - name: run code
       run: |
-        python main.py
+        python birthday wisher/main-birthday.py
