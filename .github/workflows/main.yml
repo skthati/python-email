@@ -2,7 +2,7 @@ name: Scheduled Python Script
 
 on:
   schedule:
-    - cron: '* * * 06 *' # Schedule to run every minute
+    - cron: '00 08 * * *' # Schedule to run every minute
 
 jobs:
   build:
