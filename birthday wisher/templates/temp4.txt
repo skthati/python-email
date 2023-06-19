@@ -1,6 +1,9 @@
 Dear [name],
 
-My best smile is probably when I'm holding my daughter.
+My best smile is probably when I'm holding your hand.
 
 Cheers
 Sandeep Thati.
+
+
+35 20 18 06 * python3 /users/sandeepthati/documents/code/vscode/python-basics/python\ emails/python-email/main.py
