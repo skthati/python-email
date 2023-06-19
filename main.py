@@ -2,7 +2,7 @@ import smtplib
 
 my_email = "pythonmail@sloka.co.nz"
 my_password = "Today@123"
-to_email = "sandeep@thati.org"
+to_email = "nsd1026@gmail.com"
 
 with smtplib.SMTP("smtp.gmail.com") as email_connection:
     email_connection.starttls()
@@ -17,6 +17,6 @@ with smtplib.SMTP("smtp.gmail.com") as email_connection:
     email_connection.sendmail(
         from_addr=my_email, 
         to_addrs=to_email, 
-        msg="Subject: Hello 1\n\nThis is test email."
+        msg="Subject: Dear Darling Swetha 1\n\nI love you."
     )
     # email_connection.close()
