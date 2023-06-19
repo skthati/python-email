@@ -10,10 +10,10 @@ jobs:
     
     steps:
       - name: checkout repo content
-        uses: actions/checkout@v4
+        uses: actions/checkout@v16
         
       - name: setup python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v16
         with:
           python-version: '3.11' # Replace 'x' with the desired Python version
           
