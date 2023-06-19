@@ -2,7 +2,7 @@ import smtplib
 
 my_email = "pythonmail@sloka.co.nz"
 my_password = "Today@123"
-to_email = "nsd1026@gmail.com"
+to_email = "sandz1702@gmail.com"
 
 with smtplib.SMTP("smtp.gmail.com") as email_connection:
     email_connection.starttls()
