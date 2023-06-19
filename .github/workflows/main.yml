@@ -46,5 +46,4 @@ jobs:
     - name: Run Python script
       run: |
         python main.py
-        
         python birthday-wisher/main-birthday.py
