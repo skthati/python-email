@@ -2,7 +2,7 @@ name: Scheduled Python Script
 
 on:
   schedule:
-    - cron: '00 08 * * *' # Schedule to run every minute
+    - cron: '00-59 * * * *' # Schedule to run every minute
 
 jobs:
   build:
@@ -46,4 +46,6 @@ jobs:
     - name: Run Python script
       run: |
         python main.py
+        
+        python birthday\ wisher/main-birthday.py
           
