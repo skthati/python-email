@@ -18,7 +18,11 @@ jobs:
       uses: actions/setup-node@v3
       with:
         node-version: 16.x
-    
+        
+    - name: Set Timezone
+      uses: szenius/set-timezone@v1.0
+      with:
+        timezoneLinux: "Pacific/Auckland"
         
     - name: setup python
       uses: actions/setup-python@v3
